@@ -6,7 +6,7 @@ module "tfstate-functions" {
 }
  
 module "tfconfig-functions" {
-    source = "../common-functions/tfstate-functions.sentinel"
+    source = "../common-functions/tfconfig-functions.sentinel"
 }
 policy "restrict-instance-type" {
   source  = "./restrict-instance-type.sentinel"
