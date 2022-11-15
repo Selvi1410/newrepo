@@ -2,7 +2,7 @@ module "tfplan-functions" {
     source = "../common-functions/tfplan-functions.sentinel"
  }
 module "tfstate-functions" {
-    source = "../common-functions/tfconfig-functions.sentinel"
+    source = "../common-functions/tfstate-functions.sentinel"
 }
  
 module "tfconfig-functions" {
