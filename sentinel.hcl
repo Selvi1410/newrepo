@@ -22,3 +22,7 @@ policy "allowed-region" {
   source  = "./allowed-region.sentinel"
   enforcement_level = "hard-mandatory"
 }
+policy "approved-ami" {
+  source  = "./approved-ami.sentinel"
+  enforcement_level = "hard-mandatory"
+}
