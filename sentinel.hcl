@@ -34,3 +34,7 @@ policy "allowed-resources" {
   source  = "./allowed-resources.sentinel"
   enforcement_level = "hard-mandatory"
 }
+policy "require-most-recent-AMI-version" {
+  source  = "./require-most-recent-AMI-version.sentinel"
+  enforcement_level = "hard-mandatory"
+}
