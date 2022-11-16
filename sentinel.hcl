@@ -30,3 +30,7 @@ policy "allowed-providers" {
   source  = "./allowed-providers.sentinel"
   enforcement_level = "hard-mandatory"
 }
+policy "allowed-resources" {
+  source  = "./allowed-resources.sentinel"
+  enforcement_level = "hard-mandatory"
+}
