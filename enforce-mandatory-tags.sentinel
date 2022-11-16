@@ -9,7 +9,8 @@ import "tfplan-functions" as plan
 # List of mandatory tags
 ### List of mandatory tags ###
 mandatory_tags = [
-  "Owner","Environment",
+  "Owner","Environment", "Name", "Project", "SecurityZone", "Description", "MarketPlaceAMI", "CostCentre", "Application", "Program", "Shutdown", "Portfolio", "Backup", "MonthlyPatching",
+  "TicketNumber"
 ]
 
 # Get all EC2 instances
