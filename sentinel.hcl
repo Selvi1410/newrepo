@@ -39,6 +39,6 @@ policy "require-most-recent-AMI-version" {
   enforcement_level = "hard-mandatory"
 }
 policy "enforce-mandatory-tags" {
-  source  = ".enforce-mandatory-tags.sentinel"
+  source  = "./enforce-mandatory-tags.sentinel"
   enforcement_level = "hard-mandatory"
 }
