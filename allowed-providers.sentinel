@@ -14,7 +14,7 @@ allProviders = config.find_all_providers()
 # Filter to providers with violations
 # Warnings will not be printed for violations since the last parameter is false
 violatingProviders = config.filter_attribute_not_in_list(allProviders,
-                     "provider_name", allowed_list, true)
+                     "provider_name", allowed_list, false)
 
 # Print any violations
 config.print_violations(violatingProviders["messages"], "Provider")
