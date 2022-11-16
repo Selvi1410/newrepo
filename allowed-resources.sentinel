@@ -6,7 +6,7 @@
 import "tfconfig-functions" as config
 
 # List of allowed resources
-allowed_list = ["aws_instance", data.aws_ami
+allowed_list = ["aws_instance", 
             ]
 
 # Get all Resources
